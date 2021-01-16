@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+p.text-my-content {
+    font-family:garamond !important;
+    color:dimgray !important;
+    font-size:x-large;
+    padding-left:200px;
+    padding-right:200px;
+    word-wrap: break-word;
+    text-indent: 40px;
+}
+
+ul.text-my-content {
+    font-family:garamond !important;
+    color:dimgray !important;
+    font-size:x-large;
+    padding-left:200px;
+    padding-right:200px;
+    word-wrap: break-word;
+    text-indent: 10px;
+}
+
+div.div-my-image {
+    background-color: lightgoldenrodyellow;
+    padding-left:200px;
+    padding-right:200px;
+    align-content: center;
+}
+
+label.text-my-default {
+    font-family:garamond !important;
+    color:dimgray !important;
+    font-size:medium;
+}
+
+h4.text-my-default {
+    font-family:garamond !important;
+    color:gray !important;
+}
+
+p.copyright {
+    font-family:garamond;
+    color:lightslategray;
+}
+
+div.div-my-default {
+    background-color: lightgoldenrodyellow;
+}
