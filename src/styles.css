@@ -3,8 +3,8 @@ p.text-my-content {
     font-family:garamond !important;
     color:dimgray !important;
     font-size:x-large;
-    padding-left:200px;
-    padding-right:200px;
+    padding-left:300px;
+    padding-right:300px;
     word-wrap: break-word;
 }
 
@@ -12,8 +12,8 @@ ul.text-my-content {
     font-family:garamond !important;
     color:dimgray !important;
     font-size:x-large;
-    padding-left:200px;
-    padding-right:200px;
+    padding-left:300px;
+    padding-right:300px;
     word-wrap: break-word;
     text-indent: 10px;
 }
