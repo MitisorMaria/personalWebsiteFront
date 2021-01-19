@@ -6,7 +6,6 @@ p.text-my-content {
     padding-left:200px;
     padding-right:200px;
     word-wrap: break-word;
-    text-indent: 40px;
 }
 
 ul.text-my-content {
@@ -43,5 +42,21 @@ p.copyright {
 }
 
 div.div-my-default {
+    background-color: lightgoldenrodyellow;
+}
+
+div.div-my-footer {
+    background-color: lightgoldenrodyellow;
+    padding-top:200px;
+    padding-bottom: 80px;
+}
+
+div.div-my-header {
+    background-color: lightgoldenrodyellow;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+
+div.div-background {
     background-color: lightgoldenrodyellow;
 }

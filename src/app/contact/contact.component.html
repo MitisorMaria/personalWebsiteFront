@@ -1,11 +1,11 @@
 <p class="text-justify text-my-content">
   Contact me if you are interested in working with me, or if you have any questions:
 </p>
-<div class="container" style="padding-left:100px;padding-right:200px">
-  <div [ngSwitch]="emailSuccessfullySent" style="padding-left:300px;padding-right:200px">
+<div class="container" style="padding-left:250px;padding-right:200px">
+  <div [ngSwitch]="emailSuccessfullySent" >
     <!-- the same view can be shown in more than one case -->
-    <div *ngSwitchCase="true" class="alert alert-success" role="alert">Message sent successfully!</div>
-    <div *ngSwitchCase="false" class="alert alert-danger" role="alert">There was an error sending your message.</div>
+    <ngb-alert type="success" (closed)="closeAlert()" *ngSwitchCase="true" role="alert">Message sent successfully!</ngb-alert>
+    <ngb-alert type="danger" (closed)="closeAlert()" *ngSwitchCase="false" role="alert">There was an error sending your message.</ngb-alert>
     <!--default case when there are no matches -->
     <div *ngSwitchDefault></div>
   </div>
