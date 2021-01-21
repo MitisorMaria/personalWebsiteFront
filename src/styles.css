@@ -3,8 +3,8 @@ p.text-my-content {
     font-family:garamond !important;
     color:dimgray !important;
     font-size:x-large;
-    padding-left:300px;
-    padding-right:300px;
+    padding-left:25%;
+    padding-right:25%;
     word-wrap: break-word;
 }
 
@@ -12,16 +12,16 @@ ul.text-my-content {
     font-family:garamond !important;
     color:dimgray !important;
     font-size:x-large;
-    padding-left:300px;
-    padding-right:300px;
+    padding-left:25%;
+    padding-right:25%;
     word-wrap: break-word;
-    text-indent: 10px;
+    text-indent: 1%;
 }
 
 div.div-my-image {
     background-color: lightgoldenrodyellow;
-    padding-left:200px;
-    padding-right:200px;
+    padding-left:20%;
+    padding-right:20%;
     align-content: center;
 }
 
@@ -47,14 +47,14 @@ div.div-my-default {
 
 div.div-my-footer {
     background-color: lightgoldenrodyellow;
-    padding-top:200px;
-    padding-bottom: 80px;
+    padding-top:20%;
+    padding-bottom: 8%;
 }
 
 div.div-my-header {
     background-color: lightgoldenrodyellow;
-    padding-top:30px;
-    padding-bottom: 20px;
+    padding-top:3%;
+    padding-bottom: 2%;
 }
 
 div.div-background {
