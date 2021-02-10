@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-p.text-my-content {
-    font-family:garamond !important;
+
+
+div.text-my-content {
+    font-family:candara !important;
     color:dimgray !important;
     font-size:x-large;
     padding-left:25%;
@@ -8,8 +10,25 @@ p.text-my-content {
     word-wrap: break-word;
 }
 
+p.text-my-content {
+    font-family:candara !important;
+    color:dimgray !important;
+    font-size:x-large;
+    padding-left:25%;
+    padding-right:25%;
+    word-wrap: break-word;
+}
+
+.text-my-content {
+    font-family:candara !important;
+    color:dimgray !important;
+    padding-left:25%;
+    padding-right:25%;
+    word-wrap: break-word;
+}
+
 ul.text-my-content {
-    font-family:garamond !important;
+    font-family:candara !important;
     color:dimgray !important;
     font-size:x-large;
     padding-left:25%;
@@ -26,18 +45,18 @@ div.div-my-image {
 }
 
 label.text-my-default {
-    font-family:garamond !important;
+    font-family:candara !important;
     color:dimgray !important;
     font-size:medium;
 }
 
 h4.text-my-default {
-    font-family:garamond !important;
+    font-family:candara !important;
     color:gray !important;
 }
 
 p.copyright {
-    font-family:garamond;
+    font-family:candara;
     color:lightslategray;
 }
 

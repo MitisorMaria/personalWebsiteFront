@@ -5,6 +5,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProcessComponent } from './process/process.component';
 import { CvComponent } from './cv/cv.component';
 import { Routes, RouterModule } from '@angular/router';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: "contact", component: ContactComponent },
   { path: "cv", component: CvComponent },
   { path: "portfolio", component: PortfolioComponent },
-  { path: "process", component: ProcessComponent }
+  { path: "process", component: ProcessComponent },
+  { path: "about", component: AboutComponent }
 ];
 
 @NgModule({
